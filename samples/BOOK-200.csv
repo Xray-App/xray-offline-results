@@ -1,0 +1,12 @@
+Pre-Condition Key;;Summary;Condition;;;;;;;
+CALC-2521;;(DEMO Precondition) User must be logged in;"Goto to http://bookstore.xpand-it.com
+Login with user ""test"" and the usual password
+Confirm that login was successful. ";;;;;;;
+;Test Key;Summary;Component;Description;Step Number;Step;Data;Expected Result;Staus;Comment
+;CALC-2520;(DEMO Test1 Manual) Confirm that a user can purchase Top10 books;Shopping Cart;;;;;;FAIL;
+;CALC-2520;;;;1;;;TOP 10 books must be visible;PASS;comment 1
+;CALC-2520;;;;2;;;A dialog box *Add to Cart?* should appear;PASS;comment 2
+;CALC-2520;;;;3;;;*Item Added* message must appear;FAIL;failed comment
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;

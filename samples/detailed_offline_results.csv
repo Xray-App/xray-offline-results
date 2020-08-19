@@ -1,0 +1,24 @@
+﻿Pre-Condition Key;;Summary;Condition;;;;;;;
+CALC-5;;calculator turned on;turn on the calculator;;;;;;;
+CALC-6;;calculator in scientific mode;switch to scientific mode;;;;;;;
+;Test Key;Summary;Component;Description;Step number;Step;Data;Result;Status;Comment
+;CALC-1993;Test sum of two numbers;UI;Evaluate the sum of two positive numbers;;;;;FAIL;falhado
+;CALC-1993;;;;1;press 1;;1;PASS;
+;CALC-1993;;;;2;press key;+;+;PASS;
+;CALC-1993;;;;3;press 2;;2;PASS;
+;CALC-1993;;;;4;press key;=;3;FAIL;
+;;;;;;;;;;
+Pre-Condition Key;;Summary;Condition;;;;;;;
+CALC-5;;calculator turned on;turn on the calculator;;;;;;;
+;Test Key;Summary;Component;Description;Step number;Step;Data;Result;Status;Comment
+;CALC-2020;Test multiplication of two numbers;UI;Evaluate the multiplication of two positive numbers;;;;;PASS;ok
+;CALC-2020;;;;1;press 2;;2;PASS;cool
+;CALC-2020;;;;2;press key;*;*;PASS;good
+;CALC-2020;;;;3;press 3;;3;PASS;great
+;CALC-2020;;;;4;press key;=;6;PASS;
+;;;;;;;;;;
+;CALC-1996;Generic Test;;bla bla;;;;;FAIL;crashed
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;x;;
